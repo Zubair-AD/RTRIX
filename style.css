@@ -1,0 +1,157 @@
+body{
+    background-color:white;
+}
+
+.login{
+    margin: auto;
+    height: 500px;
+    width: 28%;
+    border-radius: 34px;
+    margin-top: 55px;
+    margin-bottom: 30px;
+    background-color: white;
+    box-shadow: 2px 7px 10px 15px #dcd9d9;
+}
+
+.loginbox{
+    background-color: #00BCD4;
+    border-top-left-radius: 60px;
+    border-top-right-radius: 60px;
+    border-bottom-right-radius: 200px;
+    border-bottom-left-radius: 35px;
+
+}
+
+.account{
+    background-color: #4b4c54;
+    height: 271px;
+    border-top-left-radius: 32px;
+    border-top-right-radius: 32px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 230px;
+}
+
+.text{
+    
+    height: 230px;
+}
+
+.ic{
+    font-size: 25px;
+    margin-top: 25px;
+    margin-left: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+title{
+    color: blue;
+    font-weight: 800;
+}
+
+.CA{
+    margin-top: 30px;
+    margin-left: 40px;
+    color: white;
+}
+
+input{
+    border: none;
+    background: none;
+    border-bottom: white 1px solid;
+    width: 90%;
+    padding: 10px;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+    outline: none;
+}
+input:focus{
+    color: white;
+    font-size:15px;
+    text-transform: uppercase;
+  
+}
+
+::-webkit-input-placeholder { /* Edge */
+    color: white;
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer */
+    color: white;
+  }
+  
+  ::placeholder {
+    color: white;
+  }
+
+  .PWD{
+    text-transform:none !important;
+  }
+
+  .SP{
+    margin-top: 115px;
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    margin-left: 40px;
+    width: max-content;
+  }
+
+  .I_C{
+    font-size: 24px;
+    background-color:#4b4c54;
+    /* border: black; */
+    margin-top: 105px;
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+    margin-left: 105px;
+    cursor: pointer;
+  }
+
+  .s-i{
+    margin-top: 35px;
+    font-size: 15px;
+    text-decoration: underline;
+    color:white;
+    margin-left: 30px;
+}
+.s-i a{
+    color:white;
+}
+@media only screen and (min-width:300px) and (max-width: 650px) {
+    .login{
+        width:90%;
+    }
+    .CA{
+        font-size:25px;
+    }
+    .I_C{
+        font-size:15px;
+        margin-left:65px;
+        padding: 10px;
+    }
+
+    .SP{
+        font-size: 15px;
+        width: max-content;
+        margin-left:35px;
+    }
+    .s-i{
+        font-size:12px;
+        margin-left:20px;
+    }
+}
+
+
+
+@media only screen and (min-width:650px) and (max-width: 1200px) {
+    .login{
+        width:49%;
+    }
+
+    .I_C{
+       margin-left: 75px;
+    }
+}

@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> World</title>
+    <link rel="stylesheet" type="text/css" href="personal-site.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+
+
+</head>
+<body>
+
+  <div class="contain">
+    
+    <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Uber</a>
+        <a href="#company">company</a>
+        <a href="#safety">safety</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fas fa-bars"></i>
+        </a>
+      </div>
+      
+      
+      
+      <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+
+
+<div class="col-12" style="padding:0px;">
+  <div class="tab">
+    <button class="tablinks" onclick="openCity(event, 'London')" id="defaultOpen">Earn</button>
+    <button class="tablinks" onclick="openCity(event, 'Paris')">Ride</button>
+    <button class="tablinks" onclick="openCity(event, 'Tokyo')">Eat</button>
+  </div>
+  
+  <div id="London" class="tabcontent">
+   
+    <h3> Move your teams and employees</h3>
+    <p> Uber for business helps to simplify business travel,expensing,and custmomer experiences.</p>
+  </div>
+  
+  <div id="Paris" class="tabcontent">
+  
+    <h3>Request a ride now</h3>
+    <p> Make your ride comfort,easy,flexible and sufficient.complete your pass and ride month travel.</p> 
+  </div>
+  
+  <div id="Tokyo" class="tabcontent">
+    
+    <h3>Discover delicious eats</h3>
+    <p>Order delivery from restaraunts you love.</p>
+  </div>
+  
+</div>
+
+<script>
+  function openCity(evt, cityName) {
+    var i, tabcontent, tablinks;
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+      tabcontent[i].style.display = "none";
+    }
+    tablinks = document.getElementsByClassName("tablinks");
+    for (i = 0; i < tablinks.length; i++) {
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
+    }
+    document.getElementById(cityName).style.display = "block";
+    evt.currentTarget.className += " active";
+  }
+  
+  // Get the element with id="defaultOpen" and click on it
+  document.getElementById("defaultOpen").click();
+  </script>
+
+
+
+
+<div class="col-12">
+  <div class="row">
+    <div class="col-12 head">
+    <h1>
+      Get in the driver's seat and get paid 
+    </h1>
+    <h6 class="foot">
+      Drive on the platform with the largest network of active riders
+    </h6>
+    </div>
+  </div>
+
+</div>
+      
+
+<div class="col-12">
+  <img src="man1.jpg" class="img">
+</div>
+      
+
+</div>
+
+<div class="contain1">
+  <div class="col-12 set ">
+    <h3>
+      Setting 10,000 + cities in motion
+    </h3>
+     
+    <h6 class="cit">
+      <a href="#">View all cities</a>
+    </h6>
+
+  </div>
+
+  <div class="col-12">
+    <img src="car.jpg" class="car">
+  </div>
+</div>
+
+<div class="contain2">
+
+  <div class="col-12 settt">
+
+    <h4 class="U_B">
+      Uber for business
+    </h4>
+  
+    <h6 class="UB">
+      The power of uber in everyday business
+    </h6>
+
+  </div>
+
+
+  <div class="container">
+    <div class="box">
+         <img src="meals.png" class="meal">
+     
+          <h4  class="mealt"> Work meals</h4>
+          <h6 class="meal-t">Delight your employees with their favourite meals delivered
+            directly to anywhere they work.
+          </h6>
+    </div>
+    <div class="box">
+      <img src="ride1.png" class="meal">
+     
+      <h4 class="mealt"> Employee Rides</h4>
+      <h6 class="meal-t">Take the work out of work-related trips. Create 
+        ground travel and commute programs for employees.
+      </h6>
+    </div>
+    <div class="box">
+      <img src="ride2.png" class="meal">
+     
+      <h4  class="mealt"> Courtesy Rides</h4>
+      <h6 class="meal-t">Aim to impress. Arrange door-to-door rides for your customers, clients, and guests.
+      </h6>
+    </div>
+  </div>
+ 
+</div>
+
+<div class="contain3">
+  <div class="col-12">
+    <h2 class="h_i" style="margin-left: 10px;">Uber</h2>
+    <h5 class="h_i" style="margin-left: 10px;"><a href="#">Visit help center</a></h5>  
+  </div>
+
+  <div class="col-12">
+    <div class="row foot-2">
+
+      <div class="column cv">
+       <h3>Company</h4>
+       <h6 class="i">About us</h6>
+       <h6 class="i">Newsroom</h6>
+       <h6 class="i">Investors</h6>
+       <h6 class="i">Blog</h6>    
+      </div>
+     
+      <div class="column cv">
+        <h3>Products</h4>
+        <h6 class="i">Drive</h6>
+        <h6 class="i">Eat</h6>
+        <h6 class="i">Ride</h6>
+        <h6 class="i">Uber for business</h6>    
+       </div>
+     
+       <div class="column cv">
+        <h3>Global Citizenship</h4>
+        <h6 class="i">Safety</h6>
+        <h6 class="i">Diversity</h6>
+        <h6 class="i">Transparency</h6>
+         
+       </div>
+
+       <div class="column cv">
+        <h3>Innovation</h4>
+        <h6 class="i">Atg</h6>
+        <h6 class="i">Ai</h6>
+        <h6 class="i">Elevate</h6>
+         
+       </div>
+       <div class="column cv">
+         <img src="gp.svg" class="gp">
+       </div>
+     
+      
+      
+    </div>
+  </div>
+
+  <div class="col-12">
+    <h6 style="text-align: center;
+    font-weight: 400;margin-bottom:0px !important;padding-bottom: 30px;"> © 2020 Uber Technologies Inc.</h6>
+  </div>
+
+ 
+
+</div>
+
+</body>
+</html>
